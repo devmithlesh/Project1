@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-      <header className="container mx-auto md:px-28 px-6 py-6 ">
+      <header className="container mx-auto md:px-28 px-6 py-5 ">
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
             <ul className={menu ? "mediaqnav" : "mediaqnav active"}>

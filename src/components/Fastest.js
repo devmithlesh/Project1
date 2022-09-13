@@ -5,7 +5,7 @@ function Fastest() {
     <>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex md:px-28 px-6 py-32 md:flex-row flex-col items-center">
-          <div className="flex flex-col md:w-1/2 w-full items-center">
+          <div className="flex flex-col md:w-1/2 w-full md:items-start items-center">
             <h2 className="md:w-8/12 md:text-left ">Fastest way to organize</h2>
             <h4 className="md:w-11/12 md:text-left mt-4 md:mt-0">
               Most calendars are designed for teams.

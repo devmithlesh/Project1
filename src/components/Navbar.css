@@ -15,12 +15,13 @@ ul li {
   color: #fff;
 }
 .logo-nav-png {
-  width: 33.31px;
+  width: 28px;
 }
 .facebook {
-  width: 32.4px;
+  width: 26.3px;
   margin: 0 25px;
 }
+
 @media screen and (max-width: 768px) {
   .mediaqnav {
     width: 100%;

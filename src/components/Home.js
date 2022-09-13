@@ -8,6 +8,8 @@ import Partners from "./Partners";
 import Testimonls from "./Testimonls";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
+import Mfooter from "./Mfooter";
+import Footer from "./Footer";
 function Hero() {
   return (
     <>
@@ -43,6 +45,9 @@ function Hero() {
       <Pricing />
       {/* contact section */}
       <Contact />
+      {/* Footer section */}
+      <Footer />
+      <Mfooter />
     </>
   );
 }

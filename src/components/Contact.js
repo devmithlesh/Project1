@@ -39,7 +39,7 @@ function Contact() {
             </span>
           </h4>
         </div>
-        <div className="flex  items-center md:flex-row md:flex-nowrap flex-wrap-reverse mt-10 ">
+        <div className="flex items-center md:flex-row md:flex-nowrap flex-wrap-reverse mt-10 ">
           {/* form left side */}
           <div className="flex justify-center w-full">
             <form className=" border p-4 rounded-lg box-shadow form-wh">
@@ -64,7 +64,7 @@ function Contact() {
                 className=" my-10 w-full py-2 px-2 text-xs h-32 rounded-xs bg-imput"
                 name="textBox"
               ></textarea>
-              <button className="button-primary">Send</button>
+              <button className="btn-contact">Send</button>
             </form>
           </div>
           {/* right side contact */}
@@ -86,7 +86,7 @@ function Contact() {
             </div>
             <div className="flex items-center md:justify-start justify-center w-full mt-10 ">
               <img src={twr} alt="twitter" className="w-6" />
-              <img src={Facb} alt="facebook" className="w-6 md:mx-4 mx-10" />
+              <img src={Facb} alt="facebook" className="w-6 md:mx-6 mx-10" />
               <img src={Linkd} alt="" className="w-6" />
             </div>
           </div>
