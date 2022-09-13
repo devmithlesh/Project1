@@ -1,0 +1,83 @@
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  color: #374754;
+}
+li {
+  list-style: none;
+}
+/* H1 */
+h1 {
+  width: 672px;
+  height: 168px;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+/* H2 */
+h2 {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+/* H3 */
+h3 {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+/* H4 */
+h4 {
+  width: 766px;
+  height: 80px;
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #374754;
+  text-align: center;
+}
+/* H5 */
+h5 {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+.button-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px;
+  width: 236px;
+  height: 52px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+}

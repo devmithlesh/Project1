@@ -1,0 +1,48 @@
+.mediaqnav {
+  display: flex;
+}
+.logo-nav {
+  width: 186px;
+  height: 58px;
+}
+ul li {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  align-items: center;
+  padding-right: 25px;
+  color: #fff;
+}
+.logo-nav-png {
+  width: 33.31px;
+}
+.facebook {
+  width: 32.4px;
+  margin: 0 25px;
+}
+@media screen and (max-width: 768px) {
+  .mediaqnav {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30% 0;
+    transition: 0.3s;
+    color: #ffffff;
+    z-index: 1;
+  }
+  .mediaqnav li {
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  .mediaqnav.active {
+    left: 0;
+  }
+}
