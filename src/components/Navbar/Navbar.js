@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "./assets/Rectangle 4.png";
-import Twitter from "./assets/social-icons/twitter.png";
-import Facebook from "./assets/social-icons/facebook.png";
-import Linkedin from "./assets/social-icons/linkedin.png";
-import menubar from "./assets/social-icons/menubar.png";
+import Logo from "../assets/Rectangle 4.png";
+import Twitter from "../assets/social-icons/twitter.png";
+import Facebook from "../assets/social-icons/facebook.png";
+import Linkedin from "../assets/social-icons/linkedin.png";
+import menubar from "../assets/social-icons/menubar.png";
 import { useState } from "react";
 function Navbar() {
   const [menu, setmenu] = useState(true);

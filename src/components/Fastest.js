@@ -13,7 +13,7 @@ function Fastest() {
                 Slate is designed for freelancers
               </span>
             </h4>
-            <button className="button-primary mt-10 md:mb-0 mb-14">
+            <button className="button-primary mt-6 md:mb-0 mb-14">
               Button
             </button>
           </div>

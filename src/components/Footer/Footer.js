@@ -1,8 +1,8 @@
-import loc from "./assets/social-icons/loc-f.png";
-import mob from "./assets/social-icons/mob-f.png";
-import Twtr from "./assets/social-icons/twitter.png";
-import Fb from "./assets/social-icons/facebook.png";
-import Lk from "./assets/social-icons/linkedin.png";
+import loc from "../assets/social-icons/loc-f.png";
+import mob from "../assets/social-icons/mob-f.png";
+import Twtr from "../assets/social-icons/twitter.png";
+import Fb from "../assets/social-icons/facebook.png";
+import Lk from "../assets/social-icons/linkedin.png";
 function Footer() {
   return (
     <>

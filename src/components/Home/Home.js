@@ -1,15 +1,15 @@
 import React from "react";
 import "./Home.css";
-import Bacimg from "./assets/background.jpg";
-import Features from "./Features.js/Features";
-import Fastest from "./Fastest";
-import Lighting from "./Lighting";
-import Partners from "./Partners";
-import Testimonls from "./Testimonls";
-import Pricing from "./Pricing";
-import Contact from "./Contact";
-import Mfooter from "./Mfooter";
-import Footer from "./Footer";
+import Bacimg from "../assets/background.jpg";
+import Features from "../Features.js/Features";
+import Fastest from "../Fastest";
+import Lighting from "../Lighting";
+import Partners from "../Partners";
+import Testimonls from "../Testimonls";
+import Pricing from "../Pricing";
+import Contact from "../Contact/Contact";
+import Mfooter from "../Footer/Mfooter";
+import Footer from "../Footer/Footer";
 function Hero() {
   return (
     <>
@@ -47,6 +47,7 @@ function Hero() {
       <Contact />
       {/* Footer section */}
       <Footer />
+      {/* mobile view footer */}
       <Mfooter />
     </>
   );

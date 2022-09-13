@@ -52,7 +52,7 @@ function Pricing() {
               </div>
             </div>
             {/* second card */}
-            <div className="lg:w-1/3 flex flex-col items-center">
+            <div className="lg:w-1/3 flex flex-col items-center my-10 md:my-0">
               <div
                 className="h-full bg-white px-6 py-12 rounded-lg overflow-hidden text-center relative"
                 style={{ background: "#2091F9" }}
@@ -93,7 +93,7 @@ function Pricing() {
               </div>
             </div>
             {/* third card */}
-            <div className="p-4 lg:w-1/3 flex flex-col items-center">
+            <div className="p-4 lg:w-1/3 flex flex-col items-center ">
               <div className="h-full bg-white px-6 py-12 rounded-lg overflow-hidden text-center relative">
                 <h3>FREE</h3>
                 <div className="flex justify-center">

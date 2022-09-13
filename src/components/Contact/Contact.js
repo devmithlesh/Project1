@@ -1,11 +1,11 @@
 import React from "react";
-import twr from "./assets/contact-img/twtr.png";
-import Facb from "./assets/contact-img/fb.png";
-import Linkd from "./assets/contact-img/linkd.png";
-import Loc from "./assets/contact-img/locn.png";
-import Mob from "./assets/contact-img/mob.png";
-import Mail from "./assets/contact-img/mail.png";
-import Map from "./assets/contact-img/map.png";
+import twr from "../assets/contact-img/twtr.png";
+import Facb from "../assets/contact-img/fb.png";
+import Linkd from "../assets/contact-img/linkd.png";
+import Loc from "../assets/contact-img/locn.png";
+import Mob from "../assets/contact-img/mob.png";
+import Mail from "../assets/contact-img/mail.png";
+import Map from "../assets/contact-img/map.png";
 import "./Contact.css";
 
 const Cdata = [
@@ -39,7 +39,7 @@ function Contact() {
             </span>
           </h4>
         </div>
-        <div className="flex items-center md:flex-row md:flex-nowrap flex-wrap-reverse mt-10 ">
+        <div className="flex items-center md:flex-row md:flex-nowrap flex-wrap-reverse mt-12 ">
           {/* form left side */}
           <div className="flex justify-center w-full">
             <form className=" border p-4 rounded-lg box-shadow form-wh">

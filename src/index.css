@@ -7,6 +7,8 @@
   margin: 0;
   padding: 0;
   color: #374754;
+  font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 li {
   list-style: none;
@@ -24,7 +26,7 @@ h1 {
 }
 /* H2 */
 h2 {
-  font-family: "Graphik";
+  /* font-family: "Graphik"; */
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -36,7 +38,7 @@ h2 {
 
 /* H3 */
 h3 {
-  font-family: "Graphik";
+  /* font-family: "Graphik"; */
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -50,7 +52,7 @@ h3 {
 h4 {
   width: 766px;
   height: 80px;
-  font-family: "Graphik";
+  /* font-family: "Graphik"; */
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -61,7 +63,7 @@ h4 {
 }
 /* H5 */
 h5 {
-  font-family: "Graphik";
+  /* font-family: "Graphik"; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
