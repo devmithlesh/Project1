@@ -14,19 +14,27 @@ ul li {
   padding-right: 25px;
   color: #fff;
 }
+ul li:hover {
+  opacity: 0.8;
+}
+ul li:active {
+  color: #2091f9;
+}
 .logo-nav-png {
   width: 28px;
+  cursor: pointer;
 }
 .facebook {
   width: 26.3px;
   margin: 0 25px;
 }
 
+/* media query for menu option in mob. view */
 @media screen and (max-width: 768px) {
   .mediaqnav {
     width: 100%;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -100%;
     background-color: rgb(0, 0, 0);
@@ -35,7 +43,7 @@ ul li {
     flex-direction: column;
     text-align: center;
     padding: 30% 0;
-    transition: 0.3s;
+    transition: 0.6s;
     color: #ffffff;
     z-index: 1;
   }

@@ -6,10 +6,12 @@ import Lk from "../assets/social-icons/linkedin.png";
 function Footer() {
   return (
     <>
+      {/*======================== SCREEN LG VIEW FOOTER ========================*/}
       <footer style={{ background: "#252B42" }} className="md:flex hidden">
         <div className="container mx-auto flex flex-wrap md:flex-nowrap md:px-28 px-6 py-32 w-full text-gray-100 ">
-          {/* left side */}
+          {/*========================== left side ==========================*/}
           <div className="grid md:grid-cols-3 grid-cols-1 mx-auto gap-20">
+            {/*================== Column1 ==================*/}
             <div className="flex flex-col items-start">
               <h3 className="text-gray-100">Pages</h3>
               <ul>
@@ -20,6 +22,7 @@ function Footer() {
                 <li className="py-4">Contact</li>
               </ul>
             </div>
+            {/*================== Column2 ==================*/}
             <div className="flex flex-col items-start ">
               <h3 className="text-gray-100">Tomothy</h3>
               <ul>
@@ -30,6 +33,7 @@ function Footer() {
                 <li className="py-4">Gloria Richards</li>
               </ul>
             </div>
+            {/*================== Column3 ==================*/}
             <div className="flex flex-col items-start">
               <h3 className="text-gray-100">Jane Black</h3>
               <ul>
@@ -41,8 +45,9 @@ function Footer() {
               </ul>
             </div>
           </div>
-          {/* right side */}
+          {/*============================= Right side =============================*/}
           <div className="flex flex-col">
+            {/*====================== Adress ======================*/}
             <div className="flex flex-col md:my-0 my-10">
               <div className="flex items-center">
                 <img src={loc} alt="location" className="w-8" />
@@ -53,7 +58,8 @@ function Footer() {
                 <p className="text-gray-100"> (239) 555-0108 </p>
               </div>
             </div>
-            <div className="flex justify-center md:justify-start">
+            {/*===================== Social icons =====================*/}
+            <div className="flex justify-center md:justify-start md:mt-3">
               <img src={Twtr} alt="twitter" />
               <img src={Fb} alt="facebook" className="mx-5" />
               <img src={Lk} alt="linkedin" />

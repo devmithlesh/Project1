@@ -8,6 +8,7 @@ function Features() {
     <>
       <section>
         <div className="container mx-auto md:px-28 px-4  flex items-center flex-col ">
+          {/*=================== Main Heading in this section ===================*/}
           <h2>Features</h2>
           <h4 className="mt-4 md:mt-0">
             Most calendars are designed for teams.
@@ -15,6 +16,7 @@ function Features() {
               <br /> Slate is designed for freelancers
             </span>
           </h4>
+          {/*=================== Dynamic Data pass Three text card ===============*/}
           <div className="flex items-center md:flex-wrap flex-wrap-reverse">
             <div className="flex md:flex-row flex-col items-center justify-center text-center py-10 w-full">
               {Fdata.map((pro, ind) => {
@@ -31,12 +33,15 @@ function Features() {
                 );
               })}
             </div>
+
+            {/*============================ Down Video Img ============================*/}
+
             <div className="img-video mt-10 md:mt-0">
               <img src={Videoimg} alt="video-img" />
               <img
                 src={Play}
                 alt="video-play"
-                className="img-play md:w-40 w-20"
+                className="img-play md:w-40 w-20 cursor-pointer shadow-lg hover:shadow-blue-500/50 rounded-full duration-200"
               />
             </div>
           </div>

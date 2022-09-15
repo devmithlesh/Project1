@@ -6,11 +6,12 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <>
+      {/* ==== Nav Bar ===== */}
       <Navbar />
       <Routes>
-        {/* page note found */}
+        {/*=== page note match ===*/}
         <Route path="*" element={<NoMatch />} />
-        {/* main file Home */}
+        {/*=== main file Home ====*/}
         <Route path="/" element={<Home />} />
       </Routes>
     </>

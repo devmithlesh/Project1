@@ -1,0 +1,27 @@
+.h4heading {
+  width: 500px;
+  height: 80px;
+  color: #ffffff;
+  text-align: center;
+}
+.h1heading {
+  width: 55px;
+  height: 84px;
+  margin-right: 2px;
+  color: #252b42;
+}
+
+.h1col {
+  margin-right: 24px;
+  color: #ffffff;
+}
+.box-shadow1:hover {
+  box-shadow: 1px 5px 10px #ffffff;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .h1col {
+    margin-right: 10px;
+  }
+}

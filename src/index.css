@@ -13,7 +13,7 @@
 li {
   list-style: none;
 }
-/* H1 */
+/* H1 all website Apply*/
 h1 {
   width: 672px;
   height: 168px;
@@ -24,7 +24,7 @@ h1 {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
-/* H2 */
+/* H2 all website*/
 h2 {
   /* font-family: "Graphik"; */
   font-style: normal;
@@ -36,7 +36,7 @@ h2 {
   color: #252b42;
 }
 
-/* H3 */
+/* H3 all website*/
 h3 {
   /* font-family: "Graphik"; */
   font-style: normal;
@@ -48,7 +48,7 @@ h3 {
   color: #252b42;
 }
 
-/* H4 */
+/* H4 all website*/
 h4 {
   width: 766px;
   height: 80px;
@@ -61,7 +61,7 @@ h4 {
   color: #374754;
   text-align: center;
 }
-/* H5 */
+/* H5 all website*/
 h5 {
   /* font-family: "Graphik"; */
   font-style: normal;
@@ -72,6 +72,7 @@ h5 {
   letter-spacing: 0.1px;
   color: #374754;
 }
+/* all website  */
 .button-primary {
   display: flex;
   flex-direction: column;
@@ -82,4 +83,9 @@ h5 {
   background: #2091f9;
   border-radius: 35px;
   color: #ffffff;
+  transition: 0.4;
+}
+
+.button-primary:hover {
+  opacity: 0.9;
 }

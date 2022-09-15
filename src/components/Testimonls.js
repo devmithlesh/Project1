@@ -16,7 +16,9 @@ function Testimonls() {
             to plan their schedule.
           </p>
           <div className="flex mt-10 items-center">
+            {/* ======== LG view ========== */}
             <img src={Tuser} alt="Tuser" className="mr-2 md:inline hidden" />
+            {/* ======== mobile view ========== */}
             <img src={Tuser2} alt="Tuser" className="mr-2 inline md:hidden" />
             <div>
               <p className="text-xs">Organize across</p>

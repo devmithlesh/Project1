@@ -8,15 +8,16 @@ import Linkedin from "../assets/social-icons/linkedin.png";
 import menubar from "../assets/social-icons/menubar.png";
 import { useState } from "react";
 function Navbar() {
+  //this usestate for hide & show of menu
   const [menu, setmenu] = useState(true);
   const buttonmenu = () => {
     setmenu(!menu);
   };
-
   return (
     <>
       <header className="container mx-auto md:px-28 px-6 py-5 ">
         <nav className="flex items-center justify-between">
+          {/*====================== Navbar ======================*/}
           <div className="flex items-center">
             <ul className={menu ? "mediaqnav" : "mediaqnav active"}>
               <li>
@@ -37,6 +38,7 @@ function Navbar() {
             </ul>
             <img src={Logo} alt="logo-nav" className="logo-nav z-10 md:z-0" />
           </div>
+          {/*====================== Right side of social icon ======================*/}
           <div className="md:flex hidden items-center">
             <img src={Twitter} alt="twitter" className="logo-nav-png" />
             <img
@@ -46,6 +48,9 @@ function Navbar() {
             />
             <img src={Linkedin} alt="linkedin" className="logo-nav-png" />
           </div>
+
+          {/*========================= Menu bar option icon =========================*/}
+
           <div className="flex md:hidden z-10 md:z-0" onClick={buttonmenu}>
             {menu ? (
               <img src={menubar} alt="menubar" />

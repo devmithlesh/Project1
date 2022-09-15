@@ -24,7 +24,11 @@
 .btn-hero {
   margin-top: 40px;
 }
+.clr-w {
+  color: #ffffff;
+}
 
+/* Media Query for mobile view */
 @media screen and (max-width: 768px) {
   h1 {
     width: 333px;
