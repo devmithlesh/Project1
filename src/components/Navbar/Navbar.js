@@ -15,7 +15,7 @@ function Navbar() {
   };
   return (
     <>
-      <header className="container mx-auto md:px-28 px-6 py-5 ">
+      <header className="container mx-auto lg:px-28 md:px-12 px-6 py-5 ">
         <nav className="flex items-center justify-between">
           {/*====================== Navbar ======================*/}
           <div className="flex items-center">
